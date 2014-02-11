@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Configs for development machine
+echo 'OSX profile loaded.'
+
+# set default editor
+export EDITOR='subl -w'
+export VISUAL="$EDITOR"
+
+# common places
+alias wk="cd ~/Work"
+alias p="cd ~/Personal"
+alias r="cd ~/Research"
+
+# recursively delete .DS_Store
+alias dsstore="find . -name '*.DS_Store' -type f -ls -delete"
+
+# hint for these shortcuts
+alias hint="echo; cat $BASH_SRC_PATH/.hints; echo; echo"

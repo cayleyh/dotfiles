@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## bash autocomplete using brew bash_completion and git completion packages
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+  PS1='\[\e[1;34m\]\u@\h\[\e[0m\] \w \[\e[1;32m\]$(__git_ps1 "[%s] ")\[\e[0m\]\$ ';
+fi
