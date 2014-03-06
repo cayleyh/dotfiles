@@ -1,5 +1,4 @@
-nl      npm list top level only
-ng      npm list top level only (global)
+-- general
 la      list include .files
 ll      list detailed info
 fs      file size in bytes
@@ -11,3 +10,23 @@ j       jump to mark
 mark    mark <name> - mark current location
 unmark  unmark <name> - remove marked location
 marks   list all marks
+
+-- git
+gs      git status
+ga      git add -A .
+gf      git fetch
+gc      git commit
+gb      git branch
+gd      git diff
+gco     git checkout
+gp      git push
+gl      git pull
+gt      git tag
+gm      git merge
+gg      git log --graph
+gls     git log single line
+glogsearch search git log for matching string
+
+-- npm
+nl      npm list top level only
+ng      npm list top level only (global)
