@@ -12,3 +12,8 @@ BASH_SRC_PATH=$DOTFILES_PATH/bash
 alias dot="cd ~/.dotfiles"
 # reload
 alias spr="source ~/.profile; echo '~/.profile reloaded.'"
+
+# App Customization
+
+# Homebrew-first path setup
+PATH="/usr/local/bin:$PATH"
