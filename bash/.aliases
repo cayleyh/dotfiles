@@ -40,9 +40,5 @@ alias nl="npm list --depth=0 2>/dev/null"
 # process finding
 alias pg="pgrep -lf"
 
-## XCode Project sorting
-# Run in the Quick Capture root directory to sort the XCode project file
-alias sortqcproj='perl ~/scripts/sort-Xcode-project-file.pl QuickCapture.xcodeproj/project.pbxproj'
-
 # Development workflow shortcuts
 alias fw="forever -w"

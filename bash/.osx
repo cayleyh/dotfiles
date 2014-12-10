@@ -17,3 +17,12 @@ alias dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
 # hint for these shortcuts
 alias hint="echo; cat $BASH_SRC_PATH/.hints; echo; echo"
+
+# -----------------------------------
+# Xcode Development Helpers
+
+alias simulator = "open /Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
+
+## XCode Project sorting
+# Run in the project root directory to sort the XCode project file
+alias sortqcproj='perl ~/scripts/sort-Xcode-project-file.pl *.xcodeproj/project.pbxproj'

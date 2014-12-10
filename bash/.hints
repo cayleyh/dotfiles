@@ -30,3 +30,7 @@ glogsearch search git log for matching string
 -- npm
 nl      npm list top level only
 ng      npm list top level only (global)
+
+-- Xcode
+simulator	open iOS simulator
+sortqcproj	sort project.pbxproj declarations
