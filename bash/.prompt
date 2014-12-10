@@ -56,3 +56,6 @@ complete -o default -F _grunt_completions grunt
 
 # Enable grunt autocompletion
 eval "$(grunt --completion=bash)"
+
+# OPAM configuration
+. ~/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
