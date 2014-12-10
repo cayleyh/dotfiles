@@ -17,3 +17,6 @@ alias spr="source ~/.profile; echo '~/.profile reloaded.'"
 
 # Homebrew-first path setup
 PATH="/usr/local/bin:$PATH"
+
+# Enable direnv
+eval "$(direnv hook bash)"
