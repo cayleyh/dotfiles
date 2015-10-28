@@ -4,8 +4,12 @@ ll      list detailed info
 fs      file size in bytes
 md      mkdir and enter it
 clean   remove everything in current dir
-pg      ps ax | grep ...
+dsstore recursively delete .DS_Store dirs
 extract extract <file> for most archive types
+pg      ps ax | grep ...
+
+wk      cd ~/Work
+p       cd ~/Projects
 j       jump to mark
 mark    mark <name> - mark current location
 unmark  unmark <name> - remove marked location
@@ -24,13 +28,12 @@ gl      git pull
 gt      git tag
 gm      git merge
 gg      git log --graph
-gls     git log single line
-glogsearch search git log for matching string
+ggs     search git log for matching string
 
 -- npm
 nl      npm list top level only
 ng      npm list top level only (global)
 
 -- Xcode
-simulator	open iOS simulator
-sortqcproj	sort project.pbxproj declarations
+simulator	  open iOS simulator
+sortxcp	    sort project.pbxproj declarations

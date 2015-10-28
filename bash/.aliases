@@ -13,7 +13,7 @@ alias .....="cd ../../../.."
 
 # some ls aliases
 alias ls='ls -G' # use colors
-alias la="ls -Al"
+alias la="ls -A"
 alias ll="ls -Al"
 
 # process finding

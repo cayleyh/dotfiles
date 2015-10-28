@@ -1,5 +1,4 @@
-# Install required packages...
-
+# TODO: nstall required packages...
 # brew git completion
 # brew bash_completion
 

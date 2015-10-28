@@ -20,8 +20,8 @@ alias hint="echo; cat $BASH_SRC_PATH/.hints; echo; echo"
 # -----------------------------------
 # Xcode Development Helpers
 
-alias simulator = "open /Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
 
 ## XCode Project sorting
 # Run in the project root directory to sort the XCode project file
-alias sortqcproj='perl ~/.dotfiles/scripts/sort-xcode-project-file.pl *.xcodeproj/project.pbxproj'
+alias sortxcp='perl ~/.dotfiles/scripts/sort-xcode-project-file.pl *.xcodeproj/project.pbxproj'
