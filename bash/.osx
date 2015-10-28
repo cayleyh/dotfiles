@@ -14,9 +14,6 @@ alias p="cd ~/Projects"
 # recursively delete .DS_Store
 alias dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
-# hint for these shortcuts
-alias hint="echo; cat $BASH_SRC_PATH/.hints; echo; echo"
-
 # -----------------------------------
 # Xcode Development Helpers
 

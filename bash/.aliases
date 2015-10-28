@@ -5,6 +5,10 @@
 # make aliases sudo-able
 alias sudo="sudo "
 
+# hint for these shortcuts
+alias hint="cat $BASH_SRC_PATH/.hints; echo"
+alias h="hint"
+
 # directory navigation
 alias ..="cd .."
 alias ...="cd ../.."
