@@ -1,0 +1,29 @@
+# Global gitignore
+# https://help.github.com/articles/ignoring-files/
+
+# OSX files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+
+# editor files
+*.sublime-*
+
+# direnv files
+.envrc
+
+# logs and dbs
+*.log
+*.sql
+*.sqlite
+
+# npm specific
+node_modules
+npm-debug.log
+
+# bower specific
+bower_components
+
+# sass specific
+.sass-cache

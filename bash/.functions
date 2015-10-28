@@ -1,6 +1,12 @@
 #!/bin/bash
 
-# Jeroen Janssens' jumper functions
+### Search git log
+function ggs() {
+        echo "$@"
+        git log --all --grep="$@"
+}
+
+### Jeroen Janssens' jumper functions
 # http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html
 # with some modifications: completion, show marks if no args given, make marks work on OS X 10.8.
 export MARKPATH=$HOME/.marks
@@ -49,10 +55,10 @@ function fs() {
     du -sh ${1} | awk '{print $1}'
 }
 
-# credit: http://nparikh.org/notes/zshrc.txt
-# Usage: extract <file>
+### extract <file>
 # Description: extracts archived files / mounts disk images
 # Note: .dmg/hdiutil is Mac OS X-specific.
+# credit: http://nparikh.org/notes/zshrc.txt
 extract () {
     if [ -f $1 ]; then
         case $1 in
@@ -74,10 +80,4 @@ extract () {
     else
         echo "'$1' is not a valid file"
     fi
-}
-
-# Search git log
-function glogsearch() {
-        echo "$@"
-        git log --all --grep="$@"
 }

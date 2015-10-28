@@ -13,8 +13,11 @@ alias .....="cd ../../../.."
 
 # some ls aliases
 alias ls='ls -G' # use colors
-alias la="ls -A"
+alias la="ls -Al"
 alias ll="ls -Al"
+
+# process finding
+alias pg="pgrep -lf"
 
 # git shortcuts
 alias gs="git status"
@@ -29,16 +32,11 @@ alias gl="git pull"
 alias gt="git tag"
 alias gm="git merge"
 alias gg="git log --graph --pretty=format:'%C(bold red)%h%Creset -%C(bold yellow)%d%Creset %s %C(bold green)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-# mine
-alias gls="git log --pretty=format:'%C(yellow)%h %Cred%ad %Creset%s -- %Cblue%an%Cgreen%d' --date=short"
 
 # npm shortcuts that only list top-level modules
 # ! overrides the line-number utility
 alias ng="npm list -g --depth=0 2>/dev/null"
 alias nl="npm list --depth=0 2>/dev/null"
 
-# process finding
-alias pg="pgrep -lf"
-
 # Development workflow shortcuts
-alias fw="forever -w"
+alias chrml="open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files --disable-web-security"
