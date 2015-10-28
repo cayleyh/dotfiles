@@ -1,6 +1,5 @@
-# TODO: nstall required packages...
-# brew git completion
-# brew bash_completion
+# TODO: https://github.com/milkbikis/powerline-shell
+# TODO: Install required packages (brew git completion, brew bash_completion, etc)
 
 # install global gitignore
 echo '. git/.gitignore_global' > ~/.gitignore_global
