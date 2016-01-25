@@ -1,10 +1,11 @@
-# Android SDK Path not needed if installed via Brew!
+## Homebrew-first path setup
+PATH=/usr/local/bin:/usr/local/sbin:${PATH}
 
-# Homebrew-first path setup
-PATH=/usr/local/bin:${PATH}
+## Android
+# SDK Path not needed if installed via Brew
 
 # FB Infer
 PATH=${PATH}:~/Applications/infer-osx-v0.1.0/infer/infer/bin
 
-###
+######
 export PATH

@@ -1,3 +1,7 @@
+-- dotfiles
+dot     edit dotfiles dir
+spr     reload .profile
+
 -- general
 la      list include .files
 ll      list detailed info

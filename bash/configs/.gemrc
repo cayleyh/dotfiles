@@ -1,0 +1,6 @@
+# Ruby Gem customization
+# 
+# Installs gems:
+#   - to homebrew bin to prevent issues with El Cap
+#   - as user instead of `sudo`
+gem: -n/usr/local/bin --user-install --no-ri --no-rdoc
