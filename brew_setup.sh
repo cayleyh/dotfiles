@@ -14,6 +14,9 @@ else
   exit 1
 fi
 
+# tap versions...
+brew tap homebrew/versions
+
 # m-cli: https://github.com/rgcr/m-cli
 brew install m-cli
 
