@@ -1,0 +1,1 @@
+- Add way to auto-init app-based settings (Nylas N1)
