@@ -7,5 +7,11 @@ PATH=/usr/local/bin:/usr/local/sbin:${PATH}
 # FB Infer
 PATH=${PATH}:~/Applications/infer-osx-v0.1.0/infer/infer/bin
 
+# Go binaries, installed via Homebrew
+PATH=${PATH}:/usr/local/opt/go/libexec/bin
+
+# Fastlane tools
+PATH=${PATH}:~/.fastlane/bin
+
 ######
 export PATH
