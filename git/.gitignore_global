@@ -15,7 +15,6 @@
 
 # logs and dbs
 *.log
-*.sql
 *.sqlite
 
 # npm specific
