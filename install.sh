@@ -7,7 +7,7 @@ cp ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 # install local environment config files
-cp ~/.dotfiles/bash/configs/.gemrc ~/.gemrc
+cp ~/.dotfiles/configs/.gemrc ~/.gemrc
 
 # install general profile
 echo '. ~/.dotfiles/bash/.profile' > ~/.profile
