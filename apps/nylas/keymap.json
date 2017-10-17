@@ -1,5 +1,0 @@
-{
-  "core:archive-item": ["backspace", "del"],
-  "core:delete-item": ["mod+backspace", "mod+del"],
-  "core:remove-from-view": ["mod+shift+backspace", "mod+shift+del"]
-}
