@@ -1,6 +1,9 @@
 ## Homebrew-first path setup
 PATH=/usr/local/bin:/usr/local/sbin:${PATH}
 
+## Fastlane
+PATH="${PATH}:${HOME}/.fastlane/bin"
+
 ## NVM
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
@@ -8,7 +11,7 @@ export NVM_DIR="$HOME/.nvm"
 ## Android
 # If installed via Android Studio
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
-export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # SDK Path not needed if installed via Brew
 

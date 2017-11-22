@@ -17,8 +17,13 @@ alias dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 # -----------------------------------
 # Xcode Development Helpers
 
+alias xcleardata="rm -rf ~/Library/Developer/Xcode/DerivedData"
 alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
+
+# Remove all old, unusable simulators (as per https://twitter.com/dev_jac/status/923668339276337152)
+alias xrmsims="xcrun simctl delete unavailable"
 
 ## XCode Project sorting
 # Run in the project root directory to sort the XCode project file
 alias sortxcp='perl ~/.dotfiles/scripts/sort-xcode-project-file.pl *.xcodeproj/project.pbxproj'
+

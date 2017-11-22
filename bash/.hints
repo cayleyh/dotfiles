@@ -39,5 +39,7 @@ nl      npm list top level only
 ng      npm list top level only (global)
 
 -- Xcode
-simulator	  open iOS simulator
+simulator   open iOS simulator
+xcleardata  rm -rf ~/Library/Developer/Xcode/DerivedData 
+xrmsims	    remove old simulators
 sortxcp	    sort project.pbxproj declarations
