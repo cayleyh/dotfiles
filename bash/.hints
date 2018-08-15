@@ -3,6 +3,7 @@ dot     edit dotfiles dir
 spr     reload .profile
 
 -- general
+tldr	tl;dr of man pages 
 la      list include .files
 ll      list detailed info
 fs      file size in bytes

@@ -2,27 +2,21 @@
 PATH=/usr/local/bin:/usr/local/sbin:${PATH}
 
 ## Fastlane
-PATH="${PATH}:${HOME}/.fastlane/bin"
-
-## NVM
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+#PATH="${PATH}:${HOME}/.fastlane/bin"
 
 ## Android
-# If installed via Android Studio
+# Android SDK Path is not needed if installed via Brew
+# If installed via Android Studio, these are required:
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
 PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
-# SDK Path not needed if installed via Brew
-
-# FB Infer
-PATH=${PATH}:~/Applications/infer-osx-v0.1.0/infer/infer/bin
-
-# Go binaries, installed via Homebrew
+# Go binaries
+# (Homebrew-based Go install)
 PATH=${PATH}:/usr/local/opt/go/libexec/bin
 
-# Anaconda
-PATH=${PATH}:/usr/local/anaconda3/bin
+# Python3 Related Dependencies
+# - As directed by `brew install python`
+
 
 ######
 export PATH

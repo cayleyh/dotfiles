@@ -1,6 +1,11 @@
 #!/bin/bash
-
 # A lot of these ideas come from https://github.com/yyx990803/dotfiles
+
+# edit this folder
+alias dot="cd ~/.dotfiles"
+
+# reload
+alias spr="source ~/.profile; echo '~/.profile reloaded.'"
 
 # make aliases sudo-able
 alias sudo="sudo "
@@ -41,6 +46,3 @@ alias gg="git log --graph --pretty=format:'%C(bold red)%h%Creset -%C(bold yellow
 # ! overrides the line-number utility
 alias ng="npm list -g --depth=0 2>/dev/null"
 alias nl="npm list --depth=0 2>/dev/null"
-
-# Development workflow shortcuts
-alias chrml="open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files --disable-web-security"
