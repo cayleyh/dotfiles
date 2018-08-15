@@ -22,3 +22,6 @@ brew install m-cli
 
 # direnv: http://direnv.net/
 brew install direnv
+
+# tldr man pages: http://tldr.sh/
+brew install tldr
